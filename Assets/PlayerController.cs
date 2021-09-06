@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+    using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -33,5 +34,10 @@ public class PlayerController : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0); //if no arrow pressed, stop
         }
+
+        if (Input.GetKey(KeyCode.R))
+            {
+            SceneManager.LoadScene("SampleScene");
+            }
     }
 }
