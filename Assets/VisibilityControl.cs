@@ -53,4 +53,4 @@ public class VisibilityControl : MonoBehaviour
         }
         
     }
-}
+} //This script isn't funtional and is unused in the project

@@ -21,9 +21,9 @@ public class WinArea : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.tag == "Player") //if bullet is hit by object with enemy tag
+        if (collision.gameObject.tag == "Player") //if player walks into win area
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("SampleScene"); //reload the leve
         }
     }
 }

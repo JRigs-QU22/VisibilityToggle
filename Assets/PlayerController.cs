@@ -35,9 +35,9 @@ public class PlayerController : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0); //if no arrow pressed, stop
         }
 
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.R)) // if player presses r 
             {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("SampleScene"); //reload the level
             }
     }
 }
