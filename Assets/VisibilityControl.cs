@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VisibilityControl : MonoBehaviour
+public class VisibilityControl : MonoBehaviour //OBSOLETE: NO LONGER IN USE
 {
     GameObject[] Set1;
     GameObject[] Set2;

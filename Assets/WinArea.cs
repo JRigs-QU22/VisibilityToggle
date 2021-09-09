@@ -23,7 +23,7 @@ public class WinArea : MonoBehaviour
 
         if (collision.gameObject.tag == "Player") //if player walks into win area
         {
-            SceneManager.LoadScene("SampleScene"); //reload the leve
+            SceneManager.LoadScene("VisibilityToggle"); //reload the leve
         }
     }
 }
